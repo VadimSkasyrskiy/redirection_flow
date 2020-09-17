@@ -6,45 +6,6 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
- * 
- * 
- * Console.WriteLine("a1:");
-            double a1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a2:");
-            double a2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a3:");
-            double a3 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a4:");
-            double a4 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a5:");
-            double a5 = Convert.ToDouble(Console.ReadLine());
-
-            if( (a1 >= 0 && a1 <= Math.Pow(10, 5)) && (a2 >= 0 && a2 <= Math.Pow(10, 5)) && (a3 >= 0 && a3 <= Math.Pow(10, 5)) && (a4 >= 0 && a4 <= Math.Pow(10, 5)) && (a5 >= 0 && a5 <= Math.Pow(10, 5)))
-            {
-                                
-                if(a3 == 0 || ((a2 - a1 + a3) / a3) < 0 || ((a3 + a4) / (a1 - a3)) < 0 || a1 - a3 == 0)
-                {
-                    Console.WriteLine("ERROR!");
-                } 
-                else
-                {
-                    double s = (Math.Sqrt(a2 - a1 + a3) / a3) + (a4 / 100);
-                    double k = Math.Sqrt((a3 + a4) / (a1 - a3)) * ((a2 - a5) * (a2 - a5));
-
-                    Console.WriteLine("S = {0:0.000}", s);
-                    Console.WriteLine("K = {0:0.000}", k);
-                    Console.ReadKey();
-                }
-            }
-            else
-            {
-                Console.WriteLine("ERROR!");
-            }
- * 
- */
-
-
 namespace redirection_flow
 {
     class Program
